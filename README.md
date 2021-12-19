@@ -4,10 +4,18 @@
 
 It was the third time I missed reading my email and picking up shifts for my oncampus job. I did try creating labels and filtering them but that didn't help in any progress. It's really stressful when I get the notification that something needs a response from me right away. I had to make sure that I was not missing this next time. It is then when I decided I need to build a system to process and remind me this.
 
-The alexa request is based on https://github.com/walthowd/ha-alexa-tts,
-There is a minor change make sure to add these https://github.com/rushic24/ha-alexa-tts/commit/e9b145a01c0792b82076554579fc46e6b60a3347 if you want to try that script
+### High level view:-
+
+- Create a rule in your work email to filter out the emails by text content/subject/sender's email and forward it to a personal email address
+- The rule should look something like 
+![2021-12-19_18-04](https://user-images.githubusercontent.com/6279035/146694347-2c18cb5e-7493-4b09-a2b8-8a1908995dba.png)
+- Create a rule in the personal email address to add a label to those emails. eg. I labelled as (RSO).
+- Parsing and cleaning of the emails with the assigned labels :-)
 
 ## Setting up alexa_remote_control.sh (secrets.yaml)
+
+The alexa request is based on https://github.com/walthowd/ha-alexa-tts,
+There is a minor change make sure to add these https://github.com/rushic24/ha-alexa-tts/commit/e9b145a01c0792b82076554579fc46e6b60a3347 if you want to try that script
 
 Add your login credentials to the `homeassistant/secrets.yaml` file, with the keys alexa_email and alexa_password. I have kept a template to make those changes.
 
