@@ -91,6 +91,12 @@ WantedBy=multi-user.target
 - HOME (only during generation of secrets/tokens)
 - HOME (when creating a service)
 - ALEXA_DEVICE_NAME, REFRESH_RATE, MAX_TIMES_REPEAT in `reademails.py`
+- The label variable (RSOLabelid), you can add a print statement `print(labels)` at the line above and select label accordingly in `reademails.py`
+
+```{python}
+labels = service.users().labels().list(userId="me").execute()
+RSOLabelid = list(filter(lambda x: x["name"] == "RSO", labels["labels"]))[0]["id"]
+```
 
 # Cool! isn't it? What's next?
 
