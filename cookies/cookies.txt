@@ -1,0 +1,12 @@
+# Netscape HTTP Cookie File
+# https://curl.haxx.se/rfc/cookie_spec.html
+# This is a generated file! Do not edit.
+
+.amazon.com	TRUE	/	TRUE	1974545656  session-id	146-0730491-3734065
+.amazon.com	TRUE	/	TRUE	1974545656	session-id-time	2270501657l
+.amazon.com	TRUE	/	TRUE	1974545656	ubid-main	130-7522392-6761709
+.amazon.com	TRUE	/	TRUE	1974545656	x-main	"xmo6DGJUUaX6sdsds3443sdfsdfsdfsd?wrH86O9@5f9CX0reQ"
+#HttpOnly_.amazon.com	TRUE	/	TRUE	1974545656	at-main	Atza|IwEBINHmVu2TM2wKxfE1cZv4iyu2mqp90YQSiHJHJhjhFVGvnmlPoohyfgyfLyJDELf-k7-imawk3or7jgutXZqYBVCxrkT3_lPdigbUJSDKKDJSKDJKSJDKSJKDHUJjfgyTDRDASVABVABSNMNmm6EiM-FNQVfWy
+#HttpOnly_.amazon.com	TRUE	/	TRUE	1974545656	sess-at-main	"S975shg567d3asgsf3R+0/vTKJ1V2Xne4fi0MIeRNUu73G9sz9E="
+.amazon.com	TRUE	/	FALSE	2343435345	csrf	-2343435345
+alexa.amazon.com	FALSE	/spa	FALSE	2343s34345	DISPLAY_DEPRECATION_BANNER_STATUS	false
