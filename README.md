@@ -95,16 +95,12 @@ WantedBy=multi-user.target
 
 ```{python}
 labels = service.users().labels().list(userId="me").execute()
-RSOLabelid 
-
-https://user-images.githubusercontent.com/6279035/146694731-f55ce539-a4ba-40ea-a0eb-b2236114d9c6.mp4
-
-= list(filter(lambda x: x["name"] == "RSO", labels["labels"]))[0]["id"]
+RSOLabelid = list(filter(lambda x: x["name"] == "RSO", labels["labels"]))[0]["id"]
 ```
 
 ## See it in action :)
 
-
+https://user-images.githubusercontent.com/6279035/146694731-f55ce539-a4ba-40ea-a0eb-b2236114d9c6.mp4
 
 # Cool! isn't it? What's next?
 
