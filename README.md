@@ -8,7 +8,9 @@ It was the third time I missed reading my email and picking up shifts for my onc
 
 - Create a rule in your work email to filter out the emails by text content/subject/sender's email and forward it to a personal email address
 - The rule should look something like 
+
 ![2021-12-19_18-04](https://user-images.githubusercontent.com/6279035/146694347-2c18cb5e-7493-4b09-a2b8-8a1908995dba.png)
+
 - Create a rule in the personal email address to add a label to those emails. eg. I labelled as (RSO).
 - Parsing and cleaning of the emails with the assigned labels :-)
 
