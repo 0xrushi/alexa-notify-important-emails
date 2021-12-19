@@ -2,7 +2,7 @@
 
 ## Motivation :-
 
-It was the third time I missed reading my email and picking up shifts for my oncampus job. I did try creating labels and filtering them but that didn't help in any progress. It's really stressful when I get the notification that something needs a response from me right away. I had to make sure that I was not missing this next time. It is then when I decided I need to build a system to process and remind me this.
+It was the third time I missed reading my email and picking up shifts for my oncampus job. I did try creating labels and filtering them but that didn't show any progress in improvement. It's really stressful when I get the notification that something needs a response from me right away. I had to make sure that I was not missing this next time. It is then when I decided I need to build a system to process and remind me this.
 
 ### High level view:-
 
