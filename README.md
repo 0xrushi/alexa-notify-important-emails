@@ -1,4 +1,4 @@
-# AI for reminding important emails and reminders
+# Alexa AI for reminding important emails and reminders
 
 ## Motivation :-
 
