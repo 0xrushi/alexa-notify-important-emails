@@ -17,7 +17,7 @@ It was the third time I missed reading my email and picking up shifts for my onc
 ## Setting up alexa_remote_control.sh (secrets.yaml)
 
 The alexa request is based on https://github.com/walthowd/ha-alexa-tts,
-There is a minor change make sure to add these https://github.com/rushic24/ha-alexa-tts/commit/e9b145a01c0792b82076554579fc46e6b60a3347 if you want to try that script. I have aleady included that in this repo.
+There is a minor change make sure to add these https://github.com/rushic24/ha-alexa-tts/commit/e9b145a01c0792b82076554579fc46e6b60a3347 if you want to try that script. I have already included that in this repo.
 
 Add your login credentials to the `homeassistant/secrets.yaml` file, with the keys alexa_email and alexa_password. I have kept a template to make those changes.
 
